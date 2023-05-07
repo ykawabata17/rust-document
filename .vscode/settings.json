@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+      "/Users/yuuuya/workspace/rust_practice/Chapter2/guessing_game/Cargo.toml"
+    ],
+  }
