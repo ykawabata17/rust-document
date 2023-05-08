@@ -31,3 +31,15 @@ path = "src/Chapter3/variables.rs"
 [[bin]]
 name = "ownership"
 path = "src/Chapter4/ownership.rs"
+
+[[bin]]
+name = "reference_and_borrow"
+path = "src/Chapter4/reference_and_borrow.rs"
+
+[[bin]]
+name = "slice"
+path = "src/Chapter4/slice.rs"
+
+[[bin]]
+name = "struct_define"
+path = "src/Chapter5/struct_define.rs"
