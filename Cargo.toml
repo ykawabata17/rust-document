@@ -1,0 +1,33 @@
+[package]
+name = "rust_practice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+
+[[bin]]
+name = "guessing_game"
+path = "src/Chapter2/guessing_game.rs"
+
+[[bin]]
+name = "condition_processing"
+path = "src/Chapter3/condition_processing.rs"
+
+[[bin]]
+name = "data_type"
+path = "src/Chapter3/data_type.rs"
+
+[[bin]]
+name = "function"
+path = "src/Chapter3/function.rs"
+
+[[bin]]
+name = "variables"
+path = "src/Chapter3/variables.rs"
+
+[[bin]]
+name = "ownership"
+path = "src/Chapter4/ownership.rs"
