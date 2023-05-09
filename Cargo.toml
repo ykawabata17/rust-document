@@ -43,3 +43,8 @@ path = "src/Chapter4/slice.rs"
 [[bin]]
 name = "struct_define"
 path = "src/Chapter5/struct_define.rs"
+
+[[bin]]
+name = "struct_example"
+path = "src/Chapter5/struct_example.rs"
+
