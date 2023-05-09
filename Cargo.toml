@@ -48,3 +48,6 @@ path = "src/Chapter5/struct_define.rs"
 name = "struct_example"
 path = "src/Chapter5/struct_example.rs"
 
+[[bin]]
+name = "method"
+path = "src/Chapter5/method.rs"
