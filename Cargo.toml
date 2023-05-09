@@ -51,3 +51,7 @@ path = "src/Chapter5/struct_example.rs"
 [[bin]]
 name = "method"
 path = "src/Chapter5/method.rs"
+
+[[bin]]
+name = "define_enum"
+path = "src/Chapter6/define_enum.rs"
