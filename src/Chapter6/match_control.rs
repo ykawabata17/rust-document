@@ -50,4 +50,18 @@ fn main() {
     let five = Some(5);
     let six = plus_one(five);
     let none = plus_one(None);
+
+    // ################################
+    
+    // ただ一つの値とマッチする時のみ処理を走らせるmatch式
+    let some_u8_value: Option<u8> = Some(3);
+    match some_u8_value {
+        Some(3) => println!("three"),
+        _ => (),
+    }
+
+    // 上記のmatch式をif let式に置き換えて短く記載
+    if let Some(3) = some_u8_value {
+        println!("three");
+    }
 }

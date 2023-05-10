@@ -59,4 +59,3 @@ path = "src/Chapter6/define_enum.rs"
 [[bin]]
 name = "match_control"
 path = "src/Chapter6/match_control.rs"
-
