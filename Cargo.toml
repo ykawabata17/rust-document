@@ -55,3 +55,8 @@ path = "src/Chapter5/method.rs"
 [[bin]]
 name = "define_enum"
 path = "src/Chapter6/define_enum.rs"
+
+[[bin]]
+name = "match_control"
+path = "src/Chapter6/match_control.rs"
+
