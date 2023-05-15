@@ -7,9 +7,9 @@ mod front_of_house {
 // useでモジュールをスコープに持ち込む
 use crate::front_of_house::hosting;
 // 上のuse文と等しい
-use self::front_of_house::hosting;
+// use self::front_of_house::hosting;
 // Rustの慣例的に，以下のようにはしない
-use crete::front_of_house::hosting::add_to_waitlist;
+use crate::front_of_house::hosting::add_to_waitlist;
 
 pub fn eat_at_restaurant() {
     // スコープに持ち込んでいるので，hostingからでok
@@ -22,9 +22,10 @@ pub fn eat_at_restaurant() {
 // asを使って新しい名前を与える
 use std::fmt::Result;
 use std::io::Result as IoResult;
-
-fn function1() -> Result {}
-fn function2() -> IoResult {}
+// fn function1() -> Result {
+// }
+// fn function2() -> IoResult {
+// }
 
 // ##################################
 
@@ -32,4 +33,8 @@ fn function2() -> IoResult {}
 use std::cmp::Ordering;
 use std::io;
 // 上記の2行をネストして1行で表す
-use std::{cmp::Ordering, io};
+// use std::{cmp::Ordering, io};
+
+fn main() {
+
+}
