@@ -79,3 +79,12 @@ path = "src/Chapter8/string.rs"
 [[bin]]
 name = "hashmap"
 path = "src/Chapter8/hashmap.rs"
+
+[[bin]]
+name = "panic"
+path = "src/Chapter9/panic.rs"
+
+[[bin]]
+name = "result"
+path = "src/Chapter9/result.rs"
+
