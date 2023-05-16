@@ -67,3 +67,15 @@ path = "src/Chapter7/lib.rs"
 [[bin]]
 name = "use"
 path = "src/Chapter7/use.rs"
+
+[[bin]]
+name = "vector"
+path = "src/Chapter8/vector.rs"
+
+[[bin]]
+name = "string"
+path = "src/Chapter8/string.rs"
+
+[[bin]]
+name = "hashmap"
+path = "src/Chapter8/hashmap.rs"
